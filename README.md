@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Frontend Mentor - Bookmark landing page solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Disclaimer - this is a noobie project, do not judge me like a pro
 
-## Available Scripts
+This is a noobie project i worked on to get a better understanding of react router and react mui components
 
-In the project directory, you can run:
+## Table of contents
 
-### `npm start`
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-### `npm test`
+## Overview
+so i implemented the 26 second music player(😂 thats the longest songs are on this player) using spotify Api but by using the [client Credential flow](https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/), so that users can use this app without logging into their spotify account
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### The challenge
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Users should be able to:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- search for songs, with autoCompletion
+- play songs
+- visit artist page displaying their top songs
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Screenshot
+so at first it looks like the image below, appalling right, yeah i know, real example of don't judge a book by its cover😂 
+![](./src/Musik/homePage.PNG)
 
-### `npm run eject`
+from the homePage straight away you can play songs just by clicking the play icon,
+when you click play the awsome custom player appears
+![](./src/Musik/homePage1.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+the page becomes less apalling when you start searching for songs, just start typing the name of any artist or song that intrests you
+![](./src/Musik/homePageSearch.PNG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+in the artist Card that appears and you'll be navigated to an artist page with the artist's top songs
+![](./src/Musik/ArtistPage.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Links
 
-## Learn More
+- Solution URL: [solution URL](https://github.com/OVIfy/frontend-mentor-bookmark-landing-page)
+- Live Site URL: [live site URL](https://stunning-tartufo-38939c.netlify.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## My process
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Built with
 
-### Code Splitting
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- javascript
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### What I learned
+- [client Credential flow  authorization](https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/)
+- A better understanding of the useRef hook
+- loader and useLoderData hook for react router dom
+- customizing react mui components
+- fetching req params in react router using loader function
 
-### Analyzing the Bundle Size
+### Continued development
+i will continue to focus my attention more on how to build better slide menus and drop down menus
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Useful resources
 
-### Making a Progressive Web App
+- [Example resource 1](https://stackoverflow.com/questions/45500104/how-can-i-check-if-the-value-of-an-input-is-an-email-type) - This helped me with the regex for email validation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
