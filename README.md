@@ -69,7 +69,7 @@ in the artist Card that appears and you'll be navigated to an artist page with t
 ### Continued development
 - my code is messy, i follow no standard whatsoever, i'll work on writing more organized, easily understandable and collaborative code
 
--i'll also love to start learning frontend test tools
+- i'll also love to start learning frontend test tools
 
 ### Useful resources
 
