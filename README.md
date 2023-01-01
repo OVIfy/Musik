@@ -1,4 +1,4 @@
-# Frontend Mentor - Bookmark landing page solution
+#  MUSIK - A noob music player built on spotify API
 
 Disclaimer - this is a noobie project, do not judge me like a pro
 
