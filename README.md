@@ -17,9 +17,6 @@ This is a noobie project i worked on to get a better understanding of react rout
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 so i implemented the 26 second music player(😂 thats the longest songs are on this player) using spotify Api but by using the [client Credential flow](https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/), so that users can use this app without logging into their spotify account
 
