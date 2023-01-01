@@ -55,11 +55,9 @@ in the artist Card that appears and you'll be navigated to an artist page with t
 ## My process
 
 ### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- javascript
+- reactjs
+- react router
+- react mui components
 
 ### What I learned
 - [client Credential flow  authorization](https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/)
@@ -69,17 +67,19 @@ in the artist Card that appears and you'll be navigated to an artist page with t
 - fetching req params in react router using loader function
 
 ### Continued development
-i will continue to focus my attention more on how to build better slide menus and drop down menus
+- my code is messy, i follow no standard whatsoever, i'll work on writing more organized, easily understandable and collaborative code
+
+-i'll also love to start learning frontend test tools
 
 ### Useful resources
 
-- [Example resource 1](https://stackoverflow.com/questions/45500104/how-can-i-check-if-the-value-of-an-input-is-an-email-type) - This helped me with the regex for email validation
+- [Spotify Api console](https://developer.spotify.com/console/) - This helped me test the api, know what header params they required and the kind of objects they returned
+
+-   [client credentials authorization flow](https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/) - This helped me understand how to make requests to spotify API without logging users in
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [have none yet](https://www.your-site.com)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 

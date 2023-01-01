@@ -72,7 +72,6 @@ const MusicBox = ({imageLink, track, className, list, currentSongIndex}) => {
 
 
     useEffect(()=>{
-        console.log('from musicBox', track)
       if(pauseBtn.current ){
             pauseBtn.current.onclick = (e) => {
                 audioElement.current.pause()
