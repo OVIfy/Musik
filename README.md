@@ -1,4 +1,4 @@
-# Frontend Mentor - Bookmark landing page solution
+#  MUSIK - A noob music player built on spotify API
 
 Disclaimer - this is a noobie project, do not judge me like a pro
 
@@ -16,9 +16,6 @@ This is a noobie project i worked on to get a better understanding of react rout
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 so i implemented the 26 second music player(😂 thats the longest songs are on this player) using spotify Api but by using the [client Credential flow](https://developer.spotify.com/documentation/general/guides/authorization/client-credentials/), so that users can use this app without logging into their spotify account
@@ -69,7 +66,7 @@ in the artist Card that appears and you'll be navigated to an artist page with t
 ### Continued development
 - my code is messy, i follow no standard whatsoever, i'll work on writing more organized, easily understandable and collaborative code
 
--i'll also love to start learning frontend test tools
+- i'll also love to start learning frontend test tools
 
 ### Useful resources
 
