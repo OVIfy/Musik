@@ -23,9 +23,9 @@ const TrackCard = ({songName, duration, imageLink, linkForBtn, canBePlayed}) => 
             component="img"
             alt='artists picture'
             src={imageLink || musicBoxImage }/>
-        <CardContent sx={{padding:'0px 8px', display:'flex', justifyContent:'space-between', width:'70%'}}>
+        <CardContent sx={{padding:'0px 8px', display:'flex', justifyContent:'space-between', width:'70%', alignItems:'center'}}>
             <Typography sx={{fontSize:{md:'13px', sm:'10px', xs:'10px'}}}>{songName || 'As it was'}</Typography>
-            <Typography>{duration || '3:32'}</Typography>
+            <Typography sx={{fontSize:{md:'13px', sm:'10px', xs:'10px'}}}>{duration || '3:32'}</Typography>
         </CardContent>   
         <CardActions sx={{display:'flex',pl:'0px',pr:'0px',position:"relative",justifyContent:"center",'&:hover':{transform:'scale(1.04)', cursor:'pointer', justifySelf:'right'}}}>
             {canBePlayed && <Link to={linkForBtn || '/'}>
