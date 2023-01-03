@@ -8,7 +8,7 @@ const Error = () => {
   return (
     <div id="error-page" className="flex flex-col  h-[100vh] justify-center items-center">
       <h1 className='bold text-5xl mb-[20px] text-red-500'>Oops!</h1>
-      <p className='text-red-300'>Sorry, an unexpected error has occurred.</p>
+      <p className='text-red-300'>No Network, connect to the internet and refresh</p>
       <p>
         <i className='text-red-300'>{error.statusText || error.message}</i>
       </p>

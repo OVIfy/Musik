@@ -45,9 +45,12 @@ const Home = () => {
   useEffect(()=>{
     (async() => {
         setLoading(true)
-        let response = await search(inputValue)
+        let response = null
+        if(inputValue){
+         response = await search(inputValue)
+        }
         
-        if(response.hasOwnProperty('artists')){
+        if(response && response.hasOwnProperty('artists')){
           setSuggestions(response)
         }
         setLoading(false)
@@ -61,6 +64,7 @@ const Home = () => {
   }
 
   async function getItems(value){
+    console.log('values', inputValue, value)
     let itemsForConstructingUI = await Search(value || inputValue, 5)
     // console.log('itemsForConstructingUI', itemsForConstructingUI)
     setItems(itemsForConstructingUI)
