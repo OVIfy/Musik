@@ -45,7 +45,7 @@ in the artist Card that appears and you'll be navigated to an artist page with t
 
 
 ### Links
-- Live Site URL: [live site URL](https://stunning-tartufo-38939c.netlify.app/](https://vmusik.netlify.app)
+- Live Site URL: [VMusik.com](https://vmusik.netlify.app)
 
 ## My process
 
