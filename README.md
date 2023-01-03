@@ -45,9 +45,7 @@ in the artist Card that appears and you'll be navigated to an artist page with t
 
 
 ### Links
-
-- Solution URL: [solution URL](https://github.com/OVIfy/frontend-mentor-bookmark-landing-page)
-- Live Site URL: [live site URL](https://stunning-tartufo-38939c.netlify.app/)
+- Live Site URL: [live site URL]([https://stunning-tartufo-38939c.netlify.app/](https://vmusik.netlify.app))
 
 ## My process
 
